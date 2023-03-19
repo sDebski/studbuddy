@@ -18,6 +18,7 @@ def home(request):
         Q(name__icontains=q) |
         Q(description__icontains=q)
         )
+    
     topics = Topic.objects.all()
     rooms_count = rooms.count()
     context = {'rooms': rooms, 'topics': topics, "rooms_count": rooms_count}
