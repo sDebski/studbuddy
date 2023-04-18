@@ -4,7 +4,6 @@ This is a StuddyBuddy App written in Django with function based views with REST 
 This app is made to create chat-rooms to talk about different topics.
 Logged in users can create their own topics and participate in chat-talks. 
 Not logged in users can see the topics and search through them.
-User has 
 
 ## App supports:
 - getting data from REST API endpoints
